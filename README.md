@@ -1,37 +1,35 @@
 <img src="is-thirteen-logo.png">
 
-_Special thanks to [@casdr](https://github.com/casdr) for the logo_
-# is-thirteen
+_Special thanks to [@casdr](https://github.com/casdr) for the logo_]
 
-[![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen) 
+# What is 13?
+It's that feeling in the morning where you thought you ran out of eggs but you open the fridge and there's 12 more, plus one extra.
+"13" is the _big-endian_ positional-decimal-numeral representation of the unary-numeral "1111111111111", which when compressed via _symbolic computation_ becomes "1111! / 11 + 1" or "1111 ^ 11 - 111" or "111 ^ 11 + 1111". This means the numerical value represented by the base 10 string "13" is an integer of the algebraic form `b ^ c - a = (b - n) ^ c + (a + n)` where `n := 1`, which makes it special.
 
-An npm package to check if a number is equal to 13.
+But what is a **number**? _[insert Moon Men theme]_ well, a number is an abstract object which corresponds to a certain quantity, it can be a whole (integer) quantity, or a fractional (rational) quantity. Numbers can also be irrational, but they are also somewhat fractional in nature. But then, isn't "13" a number? actually no, "13" (as we saw earlier) is just a numeral. **But what is a numeral?** A numeral is just the graphical, written, or spoken _representation_ of a numerical value. This is very helpful because **numbers can't be seen**, unless of course you write them in unary notation... But is unary **really** the closest we can get to "seeing numbers"? We don't know... yet
+
+And as always, thanks for ~watching~ reading
+
+
+And as always, thanks for watching reading
+# is-13
+
+An npm package to check if a number is equal to 13. Based on [`is-thirteen`](https://github.com/jezen/is-thirteen)
 
 ## Installation
 
 ```sh
-npm --save i is-thirteen
+npm --save i is-13
 ```
 
 or
 
 ```sh
-yarn add is-thirteen
-```
-
-## Usage
-
-```javascript
-const isThirteen = require('is-thirteen');
-
-// PLEAS READ THE SOURCE CODE BECAuse we moved fast and broke things
-
-i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶2̶5̶)̶;̶ ̶/̶/̶ ̶f̶a̶l̶s̶e̶
-i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
+yarn add is-13
 ```
 
 ```javascript
-const is = require('is-thirteen');
+const is = require('is-13');
 // Now with elegant syntax.
 
 is(13).thirteen(); // true
@@ -56,7 +54,8 @@ npm test
 
 ## License
 
-[WTFPL](http://www.wtfpl.net/txt/copying/)
-
-A helpful tool by [Jezen Thomas](https://jezenthomas.com) with helpful
+A helpful tool by [tj-commits](https://github.com/tj-commits), originally by [Jezen Thomas](https://jezenthomas.com), with helpful
 help from [Gytis Daujotas](https://twitter.com/gytdau) and many fine folk.
+
+
+You are allowed to sell this on a CD Rom.
