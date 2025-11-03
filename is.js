@@ -120,11 +120,25 @@ var is = function is(x, intesting) {
           return x > THIRTEEN;
         },
       },
+      or: {
+        equal: {
+          thirteen: function () {
+            return x >= THIRTEEN;
+          },
+        },
+      },
     },
     less: {
       than: {
         thirteen: function () {
           return x < THIRTEEN;
+        },
+      },
+      or: {
+        equal: {
+          thirteen: function () {
+            return x <= THIRTEEN;
+          },
         },
       },
     },
